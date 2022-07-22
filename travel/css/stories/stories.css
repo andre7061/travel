@@ -1,0 +1,128 @@
+
+.wrapper__stories {
+
+  padding-top: 80px;
+  background-image: url(../../assets/img/lodka.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 173px;
+  height: calc(100% + 61px);
+  position: relative;
+
+  padding-bottom: 61px;
+  z-index: 1;
+  width: 100%;
+}
+
+.stories__title {
+  margin: 0;
+  text-align: center;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #F2785C;
+  padding-bottom: 40px;
+}
+
+.story {
+  padding-top: 40px;
+  position: relative;
+
+}
+
+.wrapper__stories:before {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 61px;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: -1;
+}
+
+
+.story__item {
+  display: flex;
+  z-index: 3;
+  padding-left: 120px;
+  margin-bottom: 30px;
+
+}
+
+.story__item:nth-last-child() {
+  margin-bottom: 40px;
+}
+
+.story__img {
+  display: block;
+  width: 400px;
+  height: 250px;
+  box-sizing: border-box;
+  border: none;
+  margin-right: 39px;
+  border-radius: 10px;
+}
+
+.story__wrapper-text {
+  max-width: 760px;
+}
+
+.story__title {
+  margin-bottom: 24px;
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #0D606F;
+}
+
+.story__subtitle {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+.story__span {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #0D606F;
+
+}
+
+.stories__button {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 42px;
+  margin-top: 40px;
+
+  cursor: pointer;
+  width: 228px;
+  height: 59px;
+  background: #0D606F;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  transition: 1s;
+
+}
+
+.stories__button:hover {
+  transform: scale(1.2);
+}

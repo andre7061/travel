@@ -1,0 +1,390 @@
+
+.wrapper {
+  max-width: 1440px;
+
+  margin: auto;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 30517a03d8f86acf161b20f6dbbd3d0395190361
+}
+
+.header__wrapper {
+  background-color: rgba(242, 120, 92, 0.7);
+  height: 90px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 10;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+
+.header__link {
+  text-decoration: none;
+  display: flex;
+  transition: 1s;
+  width: 216px;
+  height: 31px;
+  margin-top: 25px;
+
+  align-self: flex-start;
+}
+
+
+
+.header__link:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.header__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  right: 20px;
+}
+
+.header__links {
+  text-decoration: none;
+  margin-right: 42px;
+  transition: 1s;
+  text-align: center;
+}
+
+
+.ad {
+  margin-right: 0;
+}
+
+
+.header__links:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.header__item {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.header__btn {
+  width: 103px;
+  height: 41px;
+
+
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  transition: 1s;
+}
+
+.header__btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.header__mobil {
+  position: absolute;
+  padding-right: 15px;
+  padding-left: 15px;
+  top: 45px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  display: none;
+  justify-content: space-between;
+}
+.popup {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: 2s;
+  display: flex;
+  justify-content: flex-end;
+}
+.popup-wrapper__header {
+  max-width: 165px;
+  width: 100%;
+  height: 250px;
+  background-color: rgba(242, 120, 92, 1);
+  border-radius: 10px;
+  position: relative;
+  top: 0;
+  right: -170px;
+  transition: 2s;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  padding-top: 44px;
+  z-index: 100000;
+}
+.popop-header_btn-close {
+  position: absolute;
+  top: 15.5px;
+  left: 15.5px;
+  width: 15px;
+  height: 15px;
+}
+.popop-header_btn-close:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.popop-header__list {
+  list-style-type: none;
+  padding: 0;
+}
+.popop-header__item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.popop-header__links {
+  text-decoration: none;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.popup-login__wrapper {
+  max-width: 650px;
+  width: 100%;
+  height: 660px;
+  background: linear-gradient(177.09deg, #ffffff 6.15%, #0d606f 202.69%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  
+}
+.popup-login {
+  justify-content: center;
+  align-items: center;
+}
+.popup-login__wrapper {
+  position: relative;
+  top: -700px;
+  transition: top, 1.5s;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 25px;
+}
+.login_activ {
+  top: 0;
+  transition: top 1.5s;
+}
+.popup-login__title {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #0d606f;
+}
+.popup-login__button-facebook {
+  max-width: 560px;
+  height: 56px;
+  width: 100%;
+  background: #1877f2;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.popup-login__button-title {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin-left: 15.5px;
+}
+.popup-login__btn-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15.5px;
+}
+.popup-login__button-gogle {
+  max-width: 560px;
+  height: 56px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 20px;
+
+<<<<<<< HEAD
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+.popup-login__button-title_gogle {
+  color: #0d606f;
+}
+
+.popup-login__button-gogle:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.popup-login__button-facebook:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.popup-login__span {
+  max-width: 261px;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(13, 96, 111, 0.5);
+}
+.popup-login__lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.popup-login__span-tite {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(13, 96, 111, 0.5);
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.popup-login__label {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #0d606f;
+}
+.popup-login__input {
+  max-width: 560px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 54px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  z-index: 10000;
+  color: #000;
+}
+.popup-login__button-sing {
+  max-width: 560px;
+  border: none;
+  height: 56px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d606f;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.popup-login__button-title {
+  margin-left: 0;
+}
+.popup-login__button-sing:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.popup-login__registr {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  display: block;
+  color: #0d606f;
+  margin-top: 10px;
+
+  text-align: center;
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+.popup-login__botom {
+  max-width: 560px;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(13, 96, 111, 0.5);
+  margin: 0 auto;
+  margin-top: 26px;
+}
+.popup-login__footer {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(13, 96, 111, 0.5);
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.popup-login__click {
+  color: rgba(13, 96, 111, 1);
+  text-decoration-line: underline;
+}
+.popup-login__click:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.popp {
+  height: 436px;
+}
+
+.activ_login {
+  display: none;
+}
+=======
+}
+
+>>>>>>> 30517a03d8f86acf161b20f6dbbd3d0395190361

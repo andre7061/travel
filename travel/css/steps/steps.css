@@ -1,0 +1,64 @@
+.steps {
+  padding-top: 80px;
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.wrapper__steps {
+  max-width: 1177px;
+  width: 100%;
+}
+
+
+.steps__wert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.steps__wrapper-icon {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.steps__title{
+
+  display: block;
+  margin: 0 auto;
+  max-width: 611px;
+  text-align: center;
+
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #F2785C;
+}
+
+.step_icon {
+  width: 100px;
+  height: 100px;
+
+}
+
+.steps__subtitle {
+  color: #0D606F;
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  padding-top: 30px;
+
+}
+
+.steps__2{
+  position: relative;
+ left: 35px;
+}

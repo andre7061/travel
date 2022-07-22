@@ -1,0 +1,63 @@
+
+.footer {
+  position: absolute;
+  bottom: 13px;
+  width: 100%;
+  left: 0;
+  z-index: 10001;
+
+
+
+}
+
+.wrapper__footer {
+  padding-right: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+}
+
+.footer__title {
+  display: block;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  position: relative;
+  left: 125px;
+}
+
+.footer__list {
+
+  margin-right: 115px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+
+
+
+  width: 30.85px;
+  height: 30.85px;
+}
+
+.footer__item {
+  margin-right: 24px;
+}
+
+
+.footer__item:nth-last-child() {
+  margin-right: 0;
+}
+
+.footer__link {
+
+  transition: 0.5s;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
+}
