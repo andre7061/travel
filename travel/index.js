@@ -13,6 +13,7 @@ const registr = document.querySelector('#ws');
 const account = document.querySelector('#btns');
 account.addEventListener('click', () => {
   openPopup(popupLogin);
+
   popupLoginrWrapper.classList.add('login_activ');
   createPopup(true);
 });
